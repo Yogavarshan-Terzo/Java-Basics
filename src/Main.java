@@ -1,7 +1,17 @@
-import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world");
+        Scanner scanner = new Scanner(System.in);
+        String input = "";
+        while (!input.equals("quit")){
+            System.out.println("Input :");
+            input = scanner.next().toLowerCase();
+            if(input.equals("pass"))
+                continue;
+            if(input.equals("quit"))
+                break;
+            System.out.println(input);
+        }
     }
 }
