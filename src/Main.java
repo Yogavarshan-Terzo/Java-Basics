@@ -2,7 +2,8 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        final float pi = 3.14F;
+        final float PI = 3.14F;
         //pi = 3;
+        //capital letters to denote constants
     }
 }
